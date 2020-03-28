@@ -1,0 +1,20 @@
+- PEMBUATAN NAMA MODEL
+	* Nama fitur / Nama model
+	App\Model\{fitur}\{model}
+	
+- PEMBUATAN NAMA CONTROLLER
+	* Nama role / Nama fitur / Nama model controller
+	App\Http\Controllers\{role}\{fitur}\{model}
+	
+- PEMBUATAN VALIDATION
+	* Nama fitur / Nama model validation / Nama function
+	App\Http\Requests\{fitur}\{model}\{function}
+	
+- PUMBUATAN SERVICE
+	* Nama fitur / Nama model service
+	App\Services\{fitur}\{service}
+
+- PUMBUATAN REPOSITORY DAN INTERFACE
+	* Nama fitur/ Nama model / Nama class 
+	App\Repositories\{fitur}\{model}\{repository}
+	App\Repositories\{fitur}\{model}\{interface}
