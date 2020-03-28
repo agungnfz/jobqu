@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-28T11:09:33.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="KzJ5DP6g_QRIldrg3_cR" version="12.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-28T11:13:17.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:74.0) Gecko/20100101 Firefox/74.0" etag="J8hYQRDkOSEp5z2y-2zM" version="12.9.3" type="github">
   <diagram id="luk-lptBpI3I-AvnTJZ9" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="3000" math="0" shadow="0">
       <root>
@@ -194,13 +194,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qvVug3DaQenadUw8ivpM-110" value="Response from repo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="710" width="130" height="20" as="geometry" />
+          <mxGeometry x="390" y="710" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qvVug3DaQenadUw8ivpM-111" value="Send data to view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="425" y="530" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="qvVug3DaQenadUw8ivpM-112" value="All query on reposittory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="910" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qvVug3DaQenadUw8ivpM-113" value="&lt;h1&gt;ATURAN CODING DAN PENAMAAN CLASS&lt;br&gt;&lt;/h1&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;- &lt;b&gt;PEMBUATAN NAMA MODEL&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;* Nama fitur / Nama model&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Model\{fitur}\{model}&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;- &lt;b&gt;PEMBUATAN NAMA CONTROLLER&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;* Nama role / Nama fitur / Nama model controller&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Http\Controllers\{role}\{fitur}\{model}&lt;br&gt;&amp;nbsp;&amp;nbsp; &lt;br&gt;- &lt;b&gt;PEMBUATAN VALIDATION&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;* Nama fitur / Nama model validation / Nama function&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Http\Requests\{fitur}\{model}\{function}&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;- &lt;b&gt;PUMBUATAN SERVICE&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;* Nama fitur / Nama model service&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Services\{fitur}\{service}&lt;br&gt;&lt;br&gt;- &lt;b&gt;PUMBUATAN REPOSITORY DAN INTERFACE&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;* Nama fitur/ Nama model / Nama class &lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Repositories\{fitur}\{model}\{repository}&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;App\Repositories\{fitur}\{model}\{interface}&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="950" width="790" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qvVug3DaQenadUw8ivpM-114" value="&lt;font color=&quot;#CC0000&quot;&gt;SILAHKAN TAMBAHKAN ATURAN TAPI JANGAN HAPUS&lt;/font&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="880" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
