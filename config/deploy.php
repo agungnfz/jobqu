@@ -97,7 +97,7 @@ return [
 
     'options' => [
         'application' => env('APP_NAME', 'Laravel'),
-        'repository' => 'git@github.com:rohanisuhadi/API-AUDIOBUKU-COM.git',
+        'repository' => 'git@github.com:rohanisuhadi/careersbox.git',
     ],
 
     /*
