@@ -112,19 +112,8 @@ return [
     */
 
     'hosts' => [
-        'audiobuku.com' => [
-            'stage' => 'production',
-            'deploy_path' => '/var/www/api.audiobuku.com',
-            'user' => 'root',
-            'sshOptions'   => [
-                'Hostname' => '139.59.217.62',
-                'StrictHostKeyChecking' => 'no',
-                'User' => 'root',
-                'Port' =>  '45179',
-            ],
-        ],
-        'staging.audiobuku.com' => [
-            'stage' => 'staging',
+        'dev.careersbox.com' => [
+            'stage' => 'development',
             'deploy_path' => '/var/www/dev.careersbox.com',
             'user' => 'root',
             'sshOptions'   => [
