@@ -116,6 +116,7 @@ return [
             'stage' => 'development',
             'deploy_path' => '/var/www/dev.careersbox.com',
             'user' => 'root',
+            'multiplexing' => false,
             'sshOptions'   => [
                 'Hostname' => '139.59.217.62',
                 'StrictHostKeyChecking' => 'no',
