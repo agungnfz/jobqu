@@ -1,7 +1,7 @@
 <?php
 namespace App\Services\Account;
 
-use App\Repositories\Account\UserInterface;
+use App\Repositories\Account\User\UserInterface;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 

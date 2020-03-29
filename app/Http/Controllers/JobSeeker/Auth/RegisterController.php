@@ -5,7 +5,7 @@ namespace App\Http\Controllers\JobSeeker\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Account\User\SaveRequest;
 use App\Providers\RouteServiceProvider;
-use App\Repositories\Account\UserInterface;
+use App\Repositories\Account\User\UserInterface;
 use App\Services\Account\UserService;
 
 class RegisterController extends Controller
