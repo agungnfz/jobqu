@@ -25,3 +25,4 @@ Route::post('login', 'JobSeeker\Auth\LoginController@login')->middleware('guest'
 Route::post('logout', 'JobSeeker\Auth\LoginController@logout')->middleware('auth')->name('logout');
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('/profile', 'JobSeeker\Account\ProfileController');
