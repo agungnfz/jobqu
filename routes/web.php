@@ -16,12 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('register', 'Auth\RegisterController@index')->middleware('guest');
-Route::post('register', 'Auth\RegisterController@store')->middleware('guest')->name('register');
+Route::get('register', 'JobSeeker\Auth\RegisterController@index')->middleware('guest');
+Route::post('register', 'JobSeeker\Auth\RegisterController@store')->middleware('guest')->name('register');
 
 
-Route::get('login', 'Auth\LoginController@index')->middleware('guest')->name('login');
-Route::post('login', 'Auth\LoginController@login')->middleware('guest')->name('login');
-Route::post('logout', 'Auth\LoginController@logout')->middleware('auth')->name('logout');
+Route::get('login', 'JobSeeker\Auth\LoginController@index')->middleware('guest')->name('login');
+Route::post('login', 'JobSeeker\Auth\LoginController@login')->middleware('guest')->name('login');
+Route::post('logout', 'JobSeeker\Auth\LoginController@logout')->middleware('auth')->name('logout');
 
 Route::get('/home', 'HomeController@index')->name('home');

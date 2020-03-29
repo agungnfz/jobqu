@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace App\Http\Controllers\JobSeeker\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\Login\LoginRequest;
